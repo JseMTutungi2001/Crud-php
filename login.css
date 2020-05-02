@@ -1,0 +1,93 @@
+body {
+    background-color: transparent;
+    background-image: url("4.jpg");
+}
+
+header {
+    text-align: center;
+}
+
+header .title {
+    color: greenyellow;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#log-in-form {
+    display: flex;
+    justify-content: center;
+    margin: 200px auto 0;
+    padding: 10px;
+    color: white;
+    height: auto;
+    width: 80%;
+    background-image: url("6.jpg");
+    background-size: cover;
+}
+
+
+/* 
+#log-in-form .heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+ */
+
+
+/* 
+#log-in-form .form-group {
+    float: center;
+    width: 80%;
+    margin-left: 40px;
+}
+
+#log-in-form .form-control {
+    padding: 15px 25px;
+    height: auto;
+}
+
+#log-in-form .form-group-btn {
+    width: 60%;
+    margin-left: 70px;
+}
+
+#log-in-form .btn {
+    padding: 13px 32px;
+}
+
+#log-in-form .checkbox {
+    float: initial;
+    margin: 15px 0 50px 40px;
+    float: center;
+}
+ */
+
+@media screen and (max-width: 800px) {
+    #log-in-form {
+        width: 90%;
+        margin: 20px;
+    }
+    /*  #log-in-form .form-group {
+        width: 60%;
+        float: none;
+        margin: 10px auto;
+    }
+    #log-in-form .form-group-btn {
+        margin-top: 30px;
+    }
+    #log-in-form .btn {
+        width: 100%;
+    }
+    #log-in-form .checkbox {
+        width: 60%;
+        float: none;
+        margin: 15px auto 50px auto;
+     } */
+}
+
+@media screen and (max-width: 600px) {
+    #log-in-form {
+        width: 90%;
+    }
+}
